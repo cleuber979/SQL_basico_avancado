@@ -39,18 +39,18 @@ select Aluno,Curso,Valor from vendas;
 select * from vendas
 order by Aluno;
 
--- 6 filtrar dados em uma tabela : Where
+-- 7 filtrar dados em uma tabela : Where
 select * from vendas
 where Estado = 'rj';
 
--- 7 alteração da tabela update 
+-- 8 alteração da tabela update 
 update vendas 
 set Valor = 150
 where Curso='vba';
 
 select * from vendas;
 
--- 8 exclusão de linhas da tabela
+-- 9 exclusão de linhas da tabela
 delete from vendas
 where ID_Vendas = 10;
 
